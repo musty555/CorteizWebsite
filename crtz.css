@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    background-color:black;
+    color: burlywood;
+    /* background-color: aqua; */
+}
+
+
+.nav{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    color: black;
+}
