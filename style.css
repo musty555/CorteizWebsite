@@ -64,6 +64,11 @@ button{
     margin-left: 25px;
 }
 
+.container a{
+    text-decoration: none;
+    color: burlywood;
+}
+
 .item1, .item2, .item3, .item4{
     /* border: 2px solid rgb(163, 58, 58); */
     margin: 10px;

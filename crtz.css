@@ -1,7 +1,7 @@
 body{
     margin: 0;
     background-color:black;
-    color: burlywood;
+    color: #deb887;
     /* background-color: aqua; */
 }
 
@@ -13,3 +13,56 @@ body{
     background-color: white;
     color: black;
 }
+
+.nav-list{
+    display: grid;
+    /* flex-direction: row; */
+    grid-template-columns: 50px 100px 100px;
+}
+
+.nav li{
+    list-style: none;
+}
+
+.info{
+    margin-left: 5%;
+    margin-right: 80%;
+
+}
+
+.info img{
+    width: 40%;
+    margin-bottom: 25px;
+}
+
+i
+
+.info i{
+    width: 90px;
+}
+.product{
+    /* margin-top: 10%; */
+    margin-bottom: 15%;
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
+    align-content:center ;
+    justify-items: center;
+}
+
+.item{
+    margin-left: 30px;
+}
+
+.product img{
+    width: 45%;
+    border-radius: 5px;
+}
+
+button{
+    background-color: rgba(0, 0, 0, 0.277);
+    color: rgb(0, 255, 60);
+    padding: 8px;
+    border: 1px solid rgb(0, 255, 102);
+}
+
